@@ -1,0 +1,204 @@
+/*!
+ * Color Calibration Camera v1.0.0
+ * Copyright 2021 Find By Color, Inc. (https://findbycolor.com)
+ */
+:root {
+  --brand-red: #EF4444;
+  --brand-orange: #F97316;
+  --brand-yellow: #EAB308;
+  --brand-green: #22C55E;
+  --brand-blue: #3B82F6;
+  --brand-indigo: #6366F1;
+  --brand-violet: #8B5CF6;
+  --brand-dark: #334155;
+  --brand-light: #FFFFFF;
+  --brand-font: 'Barlow Condensed', sans-serif;
+  --gray: #999999;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--brand-font);
+  line-height: 1.2rem;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+html {
+  background-color: var(--brand-dark);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: var(--brand-font);
+}
+
+canvas.a-canvas {
+  height: auto;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#closeSnapshot {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--brand-light);
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0.25em .75em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 12;
+}
+
+#findByColor {
+  z-index: 2;
+}
+
+#logger {
+  color: var(--brand-light);
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#snapshot {
+  border-radius: 1em;
+  border: 0.25em solid #FFF;
+  height: auto;
+  max-width: calc(100% - 4rem);
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+}
+
+#snapshotWrapper {
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+}
+
+#overlay {
+  -webkit-overflow-scrolling: touch;
+  background-color: var(--brand-dark);
+  color: var(--brand-light);
+  display: none;
+  height: 7.5em;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#takePicture {
+  appearance: none;
+  background-color: var(--brand-blue);
+  border-radius: 1.25em;
+  border: none;
+  bottom: 2.5em;
+  color: var(--brand-light);
+  font-family: var(--brand-font);
+  font-size: 1.25em;
+  height: 2.5em;
+  left: calc(50% - 6.25em);
+  line-height: 1.25rem;
+  padding: 0;
+  position: absolute;
+  text-transform: uppercase;
+  transition: background-color 1s, color 1s;
+  white-space: nowrap;
+  width: 12.5em;
+  z-index: 4;
+}
+
+#takePicture:disabled {
+  background-color: var(--brand-dark);
+  color: var(--gray);
+}
+
+#toggleDebug {
+  appearance: none;
+  background-color: var(--brand-blue);
+  border-radius: 1em;
+  border: none;
+  bottom: 0.5em;
+  color: var(--brand-light);
+  font-family: var(--brand-font);
+  font-size: 1rem;
+  height: 2em;
+  line-height: 1rem;
+  padding: 0;
+  position: absolute;
+  right: 0.5em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 5em;
+  z-index: 4;
+}
+
+.a-dialog-allow-button {
+  background-color: var(--brand-green);
+  color: var(--brand-light);
+  font-family: var(--brand-font);
+  font-weight: 600;
+}
+
+.a-dialog-deny-button {
+  background-color: var(--brand-red);
+  color: var(--brand-light);
+  font-family: var(--brand-font);
+  font-weight: 600;
+}
+
+.a-dialog-ok-button {
+  background-color: var(--brand-green);
+  color: var(--brand-light);
+  font-family: var(--brand-font);
+  font-weight: 600;
+}
+
+.snapshot-overlay {
+  background-color: var(--brand-dark);
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  overflow: hidden;
+}
