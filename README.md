@@ -4,7 +4,7 @@
 Color Calibration Camera
 ===
 
-> This is a very rough Proof of Concept.  You can check it out by visiting the [test site](https://peter.build/fbc/ar/) and viewing the image below.
+> This is a very rough Proof of Concept.  You can check it out by visiting the [Test Site](https://peter.build/fbc/ar/) and viewing the image below.
 
 Calibration Card
 ---
