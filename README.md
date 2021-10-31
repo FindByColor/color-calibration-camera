@@ -9,7 +9,7 @@ Color Calibration Camera
 Calibration Card
 ---
 
-![Calibration Card](card/calibration-card.png "Calibration Card")
+![Calibration Card](card/calibration-card@2x.png "Calibration Card")
 
 Test Image
 ---
