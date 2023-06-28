@@ -17,3 +17,10 @@ Test Image
 > See More Test Images in `./card` directory
 
 ![Calibration Card](card/test-correct-portrait.jpg "Calibration Card")
+
+Reference Sheet
+---
+
+> Detailed Reference document for card construction
+
+[Google Sheet](https://docs.google.com/spreadsheets/d/1SzmaLNr8IJVKCVxjYXfoWtxVnJ3lBczZ3RdzEHccgPw/edit#gid=0)
