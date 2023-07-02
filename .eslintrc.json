@@ -1,0 +1,31 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true,
+      "mocha": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 13
+    },
+    "rules": {
+      "arrow-parens": [2, "always"],
+      "arrow-body-style": [2, "as-needed"],
+      "semi": [2, "never"],
+      "quotes": [2, "single", {
+        "avoidEscape": true
+      }],
+      "no-var": 2,
+      "prefer-const": [2, {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }]
+    },
+    "globals": {
+      "AFRAME": "writable",
+      "FBC_CAMERA_ENV": "writable",
+      "FBC_CAMERA": "writable"
+    }
+  }

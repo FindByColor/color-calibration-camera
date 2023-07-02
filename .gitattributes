@@ -1,0 +1,16 @@
+* text=auto
+
+*.html text diff=html
+*.css text
+*.js text
+*.sql text
+*.md text
+*.bat eol=crlf
+*.cmd eol=crlf
+*.sh eol=lf
+*.rtf -text
+**/*.json linguist-language=jsonc
+*.fset3 filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text

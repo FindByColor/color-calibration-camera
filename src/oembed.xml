@@ -1,0 +1,20 @@
+
+<?xml version="1.0"?>
+<oembed>
+    <version>1.0</version>
+    <type>rich</type>
+    <provider_name>Find By Color</provider_name>
+    <provider_url>https://camera.findbycolor.com</provider_url>
+    <author_name>Find By Color</author_name>
+    <author_url>https://camera.findbycolor.com</author_url>
+    <title>Find By Color | Camera</title>
+    <width>375</width>
+    <height>700</height>
+    <html>&lt;iframe sandbox="allow-scripts" security="restricted" src="https://camera.findbycolor.com" width="700" height="825" scrolling="yes" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</html>
+    <description>Find By Color Color Calibration Camera</description>
+    <thumbnail_url>https://camera.findbycolor.com/assets/images/card.png</thumbnail_url>
+    <thumbnail_width>640</thumbnail_width>
+    <thumbnail_height>320</thumbnail_height>
+    <referrer/>
+    <cache_age>3600</cache_age>
+</oembed>

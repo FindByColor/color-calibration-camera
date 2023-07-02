@@ -1,0 +1,20 @@
+
+<?xml version="1.0"?>
+<oembed>
+    <version>1.0</version>
+    <type>rich</type>
+    <provider_name>Peter Schmalfeldt</provider_name>
+    <provider_url>https://peterschmalfeldt.com</provider_url>
+    <author_name>Peter Schmalfeldt</author_name>
+    <author_url>https://peterschmalfeldt.com</author_url>
+    <title>Peter Schmalfeldt | Certified Senior Commerce Cloud Developer</title>
+    <width>375</width>
+    <height>700</height>
+    <html>&lt;iframe sandbox="allow-scripts" security="restricted" src="https://peterschmalfeldt.com" width="700" height="825" scrolling="yes" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</html>
+    <description>Peter Schmalfeldt is a Certified Senior Salesforce Commerce Cloud Developer and has built eCommerce Web Applications for over twenty years.</description>
+    <thumbnail_url>https://peterschmalfeldt.com/assets/images/card.png</thumbnail_url>
+    <thumbnail_width>640</thumbnail_width>
+    <thumbnail_height>320</thumbnail_height>
+    <referrer/>
+    <cache_age>3600</cache_age>
+</oembed>

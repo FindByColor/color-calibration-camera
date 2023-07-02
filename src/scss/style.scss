@@ -1,22 +1,22 @@
 /*!
  * Color Calibration Camera v1.0.0
- * Copyright 2021 Find By Color, Inc. (https://findbycolor.com)
+ * Copyright 2023 Find By Color, Inc. (https://findbycolor.com)
  */
 :root {
-  --brand-red: #EF4444;
-  --brand-orange: #F97316;
-  --brand-yellow: #EAB308;
-  --brand-green: #22C55E;
-  --brand-blue: #3B82F6;
-  --brand-indigo: #6366F1;
-  --brand-violet: #8B5CF6;
+  --brand-red: #ef4444;
+  --brand-orange: #f97316;
+  --brand-yellow: #eab308;
+  --brand-green: #22c55e;
+  --brand-blue: #3b82f6;
+  --brand-indigo: #6366f1;
+  --brand-violet: #8b5cf6;
   --brand-dark: #334155;
-  --brand-light: #FFFFFF;
-  --brand-font: 'Barlow Condensed', sans-serif;
+  --brand-light: #ffffff;
+  --brand-font: "Barlow Condensed", sans-serif;
   --gray: #999999;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700&display=swap");
 
 *,
 *::before,
@@ -66,7 +66,7 @@ canvas.a-canvas {
   color: var(--brand-light);
   font-size: 3rem;
   font-weight: 600;
-  padding: 0.25em .75em;
+  padding: 0.25em 0.75em;
   position: absolute;
   right: 0;
   top: 0;
@@ -85,7 +85,7 @@ canvas.a-canvas {
 
 #snapshot {
   border-radius: 1em;
-  border: 0.25em solid #FFF;
+  border: 0.25em solid #fff;
   height: auto;
   max-width: calc(100% - 4rem);
   position: absolute;
@@ -165,6 +165,14 @@ canvas.a-canvas {
   white-space: nowrap;
   width: 5em;
   z-index: 4;
+}
+
+#cardOutline {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  z-index: 4;
+  pointer-events: none;
 }
 
 .a-dialog-allow-button {

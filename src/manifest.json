@@ -1,0 +1,58 @@
+{
+    "app_name": "FBC Camera",
+    "version": "1.0.0",
+    "background_color": "#334155",
+    "categories": ["business", "personalization", "productivity", "utilities"],
+    "description": "Peter Schmalfeldt is a Certified Senior Salesforce Commerce Cloud Developer and has built eCommerce Web Applications for over twenty years.",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "48x48",
+            "src": "assets/images/icon-48x48.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "72x72",
+            "src": "assets/images/icon-72x72.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "96x96",
+            "src": "assets/images/icon-96x96.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "128x128",
+            "src": "assets/images/icon-128x128.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "192x192",
+            "src": "assets/images/icon-192x192.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "384x384",
+            "src": "assets/images/icon-384x384.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "sizes": "512x512",
+            "src": "assets/images/icon-512x512.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "lang": "en-US",
+    "name": "FBC Camera",
+    "short_name": "FBC Camera",
+    "start_url": "/",
+    "theme_color": "#3b82f6"
+  }
