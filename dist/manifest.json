@@ -1,7 +1,7 @@
 {
     "app_name": "FBC Camera",
     "version": "1.0.0",
-    "background_color": "#0c1832",
+    "background_color": "#334155",
     "categories": ["business", "personalization", "productivity", "utilities"],
     "description": "Peter Schmalfeldt is a Certified Senior Salesforce Commerce Cloud Developer and has built eCommerce Web Applications for over twenty years.",
     "display_override": ["window-control-overlay", "minimal-ui"],
@@ -51,8 +51,8 @@
         }
     ],
     "lang": "en-US",
-    "name": "Peter Schmalfeldt",
-    "short_name": "Schmalfeldt",
+    "name": "FBC Camera",
+    "short_name": "FBC Camera",
     "start_url": "/",
-    "theme_color": "#0c1832"
+    "theme_color": "#3b82f6"
   }

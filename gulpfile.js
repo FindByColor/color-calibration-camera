@@ -183,6 +183,10 @@ gulp.task('copy-js', (done) => {
 gulp.task('server', (done) => {
   setTimeout(() => {
     browser.init({
+      https: {
+        key: 'https/localhost-key.pem',
+        cert: 'https/localhost-cert.pem'
+      },
       server: {
         baseDir: 'dist',
         serveStaticOptions: {

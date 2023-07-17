@@ -1,7 +1,7 @@
 {
-  "name": "@findbycolor/camera",
+  "name": "@findbycolor/color-calibration-camera",
   "version": "1.0.0",
-  "description": "Find By Color API",
+  "description": "Find By Color AR Camera for Color Calibration Card",
   "author": "Find By Color",
   "main": "gulpfile.js",
   "license": "UNLICENSED",
