@@ -3,3 +3,5 @@
 *.code-workspace
 !camera.code-workspace
 !.nvmrc
+node_modules
+certs

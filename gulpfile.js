@@ -184,8 +184,8 @@ gulp.task('server', (done) => {
   setTimeout(() => {
     browser.init({
       https: {
-        key: 'https/localhost-key.pem',
-        cert: 'https/localhost-cert.pem'
+        key: 'certs/localhost-key.pem',
+        cert: 'certs/localhost.pem'
       },
       server: {
         baseDir: 'dist',

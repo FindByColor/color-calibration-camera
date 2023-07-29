@@ -24,3 +24,15 @@ Reference Sheet
 > Detailed Reference document for card construction
 
 [Google Sheet](https://docs.google.com/spreadsheets/d/1SzmaLNr8IJVKCVxjYXfoWtxVnJ3lBczZ3RdzEHccgPw/edit#gid=0)
+
+Developer
+---
+
+Create Localhost SSL Certs
+
+```bash
+brew install openssl mkcert
+mkdir certs
+cd certs
+mkcert localhost
+```
